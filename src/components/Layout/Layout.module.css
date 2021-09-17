@@ -1,6 +1,13 @@
+.nav {
+  margin: 0 auto;
+  padding: 0 0;
+  width: 100%;
+  position: top;
+}
 .main {
   margin: 3rem auto;
-  width: 90%;
-  max-width: 70rem;
+  width: 100%;
+  max-width: 100rem;
   height: 60rem;
+  
 }

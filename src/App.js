@@ -6,6 +6,7 @@ import AboutUsPage from './pages/AboutUs';
 import ContactPage from './pages/Contact';
 import AddToCatalogPage from './pages/AddToCatalog';
 import Layout from './components/Layout/Layout';
+import Resources from './pages/Resources';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route path='/catalog'>
           <CatalogPage/>
+        </Route>
+        <Route path='/resources'>
+          <Resources/>
         </Route>
         <Route path='/about'>
           <AboutUsPage/>

@@ -1,6 +1,7 @@
 import ProductList from '../components/products/ProductList';
 import {useState, useEffect} from 'react';
 
+
 function CatalogPage(){
   const [isLoading, setIsLoading] = useState(true);
   const [loadedProducts, setLoadedProducts] = useState([]);

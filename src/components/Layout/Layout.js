@@ -6,7 +6,11 @@ import Footer from './Footer';
 function Layout(props) {
   return (
     <div>
-      <MainNavigation/>
+      <nav className={classes.nav}>
+        <MainNavigation/>
+        </nav>
+      
+    
       <main className={classes.main}>
        
           {props.children}
