@@ -1,4 +1,4 @@
-import {Link, NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import classes from './MainNavigation.module.css';
 
 
@@ -20,10 +20,10 @@ function MainNavigation () {
               <Link to='/resources'>Resources</Link>
             </li>
             <li>
-              <Link to='/about'>About Us</Link>
+              <Link to='/about'>About</Link>
             </li>
             <li>
-              <Link to='/contact'>Contact Us</Link>
+              <Link to='/contact'>Contact</Link>
             </li>
           </ul>
         </nav>

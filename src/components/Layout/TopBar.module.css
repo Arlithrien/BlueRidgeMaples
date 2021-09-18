@@ -9,6 +9,8 @@
     height:2.5rem;
     display: flex;
     
+    justify-content: space-between;
+    
     margin:0px;
     padding: 0 5%;
 
@@ -17,7 +19,7 @@
 }
 
 .socialmedia {
-    align-items: center;
+    align-self: center;
     justify-content: space-between;
     padding:-3rem;
     
@@ -31,11 +33,21 @@
 
 .socialmedia li {
     margin-left: 1rem;
-    margin-top: -10%;
+    
     
     
 }
 
 .nav {
+    justify-content:space-between;
+    align-self:center;
+}
+.nav ul {
+    display:flex;
+    list-style: none;
+    
+}
 
+.nav li {
+    margin-left: 1rem;
 }
