@@ -7,6 +7,7 @@ import ContactPage from './pages/Contact';
 import AddToCatalogPage from './pages/AddToCatalog';
 import Layout from './components/Layout/Layout';
 import Resources from './pages/Resources';
+// import express from 'express';
 
 function App() {
   return (
