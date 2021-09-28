@@ -2,7 +2,7 @@
 import {Route, Switch} from 'react-router-dom';
 import HomePage from './pages/Home';
 import CatalogPage from './pages/Catalog';
-import AboutUsPage from './pages/AboutUs';
+import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
 import AddToCatalogPage from './pages/AddToCatalog';
 import Layout from './components/Layout/Layout';
@@ -23,7 +23,7 @@ function App() {
           <Resources/>
         </Route>
         <Route path='/about'>
-          <AboutUsPage/>
+          <AboutPage/>
         </Route>
         <Route path='/contact'>
           <ContactPage/>

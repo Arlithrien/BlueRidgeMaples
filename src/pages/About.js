@@ -1,8 +1,25 @@
 //const MongoClient = require('mongodb').MongoClient;
 //const assert = require('assert');
+import classes from './About.module.css';
 
-function AboutUsPage(){
-  return <div>about </div>
+function AboutPage(){
+  return (
+  <>
+    <div>
+      <h1 className={classes.intro1}>
+      My name is Christopher Fleming,
+      </h1>
+      <h1 className={classes.intro2}>
+      but you can call me <span className={classes.intro3}>Chris.</span>
+      </h1>
+    </div>
+
+    <div>
+      Projects
+    </div>
+  </>
+  
+  )
 }
 
 
@@ -37,4 +54,4 @@ cursor.forEach(iterateFunc, errorFunc);
 
 
 
-export default AboutUsPage;
+export default AboutPage;

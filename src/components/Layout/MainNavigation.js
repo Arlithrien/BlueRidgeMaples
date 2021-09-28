@@ -6,7 +6,7 @@ function MainNavigation () {
   return (
     <header className={classes.header}>
       <div className={classes.logo}>
-        <img src='https://i.imgur.com/Ej1ks9p.png' alt='Blue Ridge Maples' height='85' width='350' />
+        {/*<img src='https://i.imgur.com/Ej1ks9p.png' alt='Blue Ridge Maples' height='85' width='350' /> */}
       </div>
         <nav>
           <ul>

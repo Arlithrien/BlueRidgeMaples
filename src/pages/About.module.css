@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&family=Permanent+Marker&display=swap');
+
+.intro1 {
+    display: block;
+    text-align: center;
+    font-family: 'Neutron';
+    font-size:3rem;
+}
+
+.intro2 {
+    display: block;
+    text-align: center;
+    font-family: 'Neutron';
+    font-size:3rem;
+
+}
+
+.intro3 {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Permanent Marker';
+    font-size:3rem;
+    color:rgb(5, 138, 161);
+}

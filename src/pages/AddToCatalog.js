@@ -8,7 +8,7 @@ function AddToCatalogPage() {
   //then redirects user to home page afterwards
   function addProductHandler(productData){
     fetch(
-      'https://nurserytest-42d6b-default-rtdb.firebaseio.com/products.json',
+      'https://nurserytest2-4c717-default-rtdb.firebaseio.com/products.json',
       {
         method: 'POST',
         body: JSON.stringify(productData),
